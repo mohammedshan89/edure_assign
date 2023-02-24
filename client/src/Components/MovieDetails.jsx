@@ -3,20 +3,20 @@ import React from "react";
 import { BsFillTrashFill } from "react-icons/bs";
 
 
-const MovieDetails = () => {
+const MovieDetails = ({movie}) => {
   
   
 
   return (
     <div className="workout-details">
-      <h4>name</h4>
+      <h4>{movie.name}</h4>
       <p>
-        <strong>Load (kg) : </strong>
-        dsg
+        <strong>Duration : </strong>
+        {movie.duration}
       </p>
       <p>
-        <strong>Reps :</strong>
-        gfgfds
+        <strong>Rating : </strong>
+        {movie.rating}
       </p>
      
 
